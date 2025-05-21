@@ -33,6 +33,10 @@ body {
 .emoji h2 {
   margin: 0;
   border-bottom: 2px solid #ccc;
+
+    align-self: flex-start; 
+  text-align: left; 
+  margin-left: 5px;
 }
 
 .emoji a {
