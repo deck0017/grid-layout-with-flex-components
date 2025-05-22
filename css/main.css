@@ -52,5 +52,7 @@ body {
 }
 
 .icon {
+  display: block; 
+  text-align: center;
   font-size: 4rem;
 }
