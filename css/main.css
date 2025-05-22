@@ -41,6 +41,13 @@ body {
     align-self: flex-start; 
   text-align: left; 
   margin-left: 5px;
+
+  
+/* creates the underhere */
+    display: block;
+  width: 100%;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
 }
 
 .emoji a {
@@ -52,6 +59,7 @@ body {
 }
 
 .icon {
+  /* keeps the emojis centered */
   display: block; 
   text-align: center;
   font-size: 4rem;
