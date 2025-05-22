@@ -38,7 +38,7 @@ body {
   margin: 0;
   border-bottom: 2px solid #ccc;
 
-    align-self: flex-start; 
+    align-self: flex-start; /* Aligns at the start of cross-axis and overwrites align items for the certain items */
   text-align: left; 
   margin-left: 5px;
 
