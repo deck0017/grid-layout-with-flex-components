@@ -1,3 +1,9 @@
+
+/* Regarding code validation */
+
+/* I did use Microsoft Co-Pilot, W3Schools, Nu Html Checker and the The W3C CSS Validation Service to validate code and improve code. Feedback was noted and implemented */
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
@@ -9,8 +15,8 @@ body {
   grid-template-rows: repeat(2, auto);
   gap: 15px;
 
-  margin: auto;
-  max-width: 1000px;
+  margin: auto; /* centers the grid, makes it more visualy appealing */
+  max-width: 1000px; 
 
   
 }
@@ -32,6 +38,8 @@ body {
 .emoji h2 {
   margin: 0;
   border-bottom: 2px solid #ccc;
+
+
 
     align-self: flex-start; /* Aligns at the start of cross-axis and overwrites align items for the certain items */
   text-align: left; 
