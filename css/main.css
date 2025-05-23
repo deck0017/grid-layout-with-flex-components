@@ -14,25 +14,17 @@ body {
 
 
 .emoji {
-  border: 1px solid #222;
-  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch; /* Creates consistent width */
+  height: 300px;
   padding: 1rem;
-
-
-   justify-content: space-between; 
-   display: flex;
-  flex-direction: column; 
-  align-items: center; 
   border: 1px solid black;
   border-radius: 10px;
-  padding: 1rem;
   background-color: white;
-
- 
- 
-  align-items: stretch;
-
 }
+
 
 .emoji h2 {
   margin: 0;
@@ -56,6 +48,7 @@ body {
   color: white;
   padding: 1rem;
   border-radius: 8px;
+  margin-top: auto;
 }
 
 .icon {
