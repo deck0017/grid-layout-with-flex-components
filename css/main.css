@@ -9,6 +9,9 @@ body {
   grid-template-rows: repeat(2, auto);
   gap: 15px;
 
+  margin: auto;
+  max-width: 1000px;
+
   
 }
 
@@ -48,7 +51,7 @@ body {
   color: white;
   padding: 1rem;
   border-radius: 8px;
-  margin-top: auto;
+  margin-top: auto; /* Should make button take up remaining space and be push to the bottom */
   align-self: stretch; /* Makes sure button is correct width */
 }
 
